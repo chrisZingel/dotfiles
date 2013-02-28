@@ -363,3 +363,6 @@
 [submodule "vim/bundle/vim_update_ctags"]
 	path = vim/bundle/vim_update_ctags
 	url = git@github.com:chrisZingel/vim_update_ctags.git
+[submodule "vim/bundle/airblade-vim-gitgutter"]
+	path = vim/bundle/airblade-vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
