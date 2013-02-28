@@ -92,7 +92,7 @@
 [merge]
   summary = true
   verbosity = 1
-  tool = mvimdiff
+	tool = diffmerge
 [apply]
   whitespace = nowarn
 [branch]
@@ -115,3 +115,12 @@
   # Remember my merges
   # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
   enabled = true
+[user]
+	name = Chris Zingel
+	email = chris@zingel.co.nz
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
