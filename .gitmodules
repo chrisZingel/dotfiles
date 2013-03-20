@@ -357,9 +357,6 @@
 [submodule "vim/bundle/vimwiki"]
 	path = vim/bundle/vimwiki
 	url = https://github.com/vim-scripts/vimwiki.git
-[submodule "vim/bundle/vim-js-beautify"]
-	path = vim/bundle/vim-js-beautify
-	url = https://github.com/maksimr/vim-jsbeautify.git
 [submodule "vim/bundle/vim_update_ctags"]
 	path = vim/bundle/vim_update_ctags
 	url = git@github.com:chrisZingel/vim_update_ctags.git
